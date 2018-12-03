@@ -8,10 +8,14 @@ const Navbar = () => (
     <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item" title="Logo">
-          <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+          Theory A
+          <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
         </Link>
       </div>
       <div className="navbar-start">
+        <Link className="navbar-item" to="/blog">
+          Blog
+        </Link>
         <Link className="navbar-item" to="/about">
           About
         </Link>
@@ -28,20 +32,8 @@ const Navbar = () => (
           Scriptures
         </Link>
       </div>
-      <div className="navbar-end">
-        <a
-          className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="icon">
-            <img src={github} alt="Github" />
-          </span>
-        </a>
-      </div>
     </div>
   </nav>
-)
+);
 
 export default Navbar
