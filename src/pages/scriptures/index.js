@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from '../../components/Layout'
-import scriptures from './scriptures';
+import scriptures from '../../helper/scriptures';
 import styled from "styled-components";
 
 const Row = styled.div`
@@ -17,10 +17,6 @@ const Row = styled.div`
 `;
 
 export default class Index extends React.Component {
-
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return <Layout>
