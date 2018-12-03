@@ -8,6 +8,7 @@ const Card = styled.div`
   box-shadow: 1px 1px 1px 1px lightgrey;
   border-radius: 5px;
   padding: 2em 4em;
+  margin-bottom: 2em;
 `;
 
 export default class Index extends React.Component {
